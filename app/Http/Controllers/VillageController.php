@@ -7,11 +7,6 @@ use Illuminate\Http\Request;
 
 class VillageController extends Controller
 {
-    public function index()
-    {
-      return $this->fibonacci(5);
-    }
-
     public function store(Request $request)
     {
         $data = [];
