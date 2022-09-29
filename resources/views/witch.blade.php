@@ -52,21 +52,21 @@
                     {!! csrf_field() !!}
                     <div class="row">
                         <div class="col-md-6">
-                            <label for="firstName"><b>Person A:</b> Age of Death</label>
+                            <label><b>Person A:</b> Age of Death</label>
                             <input type="number" class="form-control" name="person[1][age]" required="">
                         </div>
                         <div class="col-md-6">
-                            <label for="lastName"><b>Person A:</b> Year of Death</label>
+                            <label ><b>Person A:</b> Year of Death</label>
                             <input type="number" class="form-control" name="person[1][year]" required="">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <label for="firstName"><b>Person B:</b> Age of Death</label>
+                            <label><b>Person B:</b> Age of Death</label>
                             <input type="number" class="form-control" name="person[2][age]" required="">
                         </div>
                         <div class="col-md-6">
-                            <label for="lastName"><b>Person B:</b> Year of Death</label>
+                            <label ><b>Person B:</b> Year of Death</label>
                             <input type="number" class="form-control" name="person[2][year]" required="">
                         </div>
                     </div>
